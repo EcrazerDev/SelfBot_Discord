@@ -9,7 +9,7 @@ Supprimer un sertain nombre de vos messages
 🎯Et plein d'autres Fonctionnalités
 ## 🔄 Mises à jour régulières
 
-## 🌐 Logiciels Requis :
+## 🌐 Logiciel Requis :
 ```
 Python
 ```
