@@ -7,7 +7,7 @@ Afficher les informations d'un serveur Discord
 Créer un embed
 Supprimer un sertain nombre de vos messages
 🎯Et plein d'autres Fonctionnalités
-# 🔄 Mises à jour régulières
+ 🔄 Mises à jour régulières
 
 ## 🌐 Logiciel Requis :
 ```
