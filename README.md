@@ -34,9 +34,10 @@ pip install discord.py-self python-dotenv
 pip install git+https://github.com/dolfies/discord.py-self.git
 ```
 
-2. **Créez un fichier `.env`** dans le dossier `Sbot` avec:
+2. **Modifiez le fichier  `.env`** dans le dossier avec:
 ```
-TOKEN=votre_token_discord_ici
+TOKEN=TON_TOKEN_DISCORD
+OPENAI_API_KEY=TON_API_KEY_OPENAI
 PREFIX=!
 ```
 
@@ -58,17 +59,21 @@ python selfbot.py
 
 ## 📝 Commandes disponibles
 
-- `!ping` - Affiche la latence du bot
-- `!help` - Affiche la liste des commandes
-- `!info` - Affiche les informations de votre compte
-- `!avatar [@user]` - Affiche l'avatar d'un utilisateur
-- `!serverinfo` - Affiche les informations du serveur actuel
-- `!userinfo [@user]` - Affiche les informations d'un utilisateur
-- `!say <message>` - Répète un message
-- `!embed <titre> | <description>` - Crée un embed
-- `!purge <nombre>` - Supprime vos propres messages (1-100)
-- `!status <type>` - Change votre statut (online, idle, dnd, invisible)
-- `!activity <type> <nom>` - Change votre activité (playing, streaming, listening, watching)
+`!ping` - Affiche la latence du bot
+`!help` - Affiche ce message d'aide
+`!info` - Affiche les informations du compte
+`!avatar [@user]` - Affiche l'avatar d'un utilisateur
+`!serverinfo` - Affiche les informations du serveur
+`!userinfo [@user]` - Affiche les informations d'un utilisateur
+`!say <message>` - Répète un message
+`!embed <titre> | <description>` - Crée un embed
+`!purge <nombre>` - Supprime vos propres messages
+`!status <type>` - Change le statut (online, idle, dnd, invisible)
+`!activity <type> <nom>` - Change l'activité (playing, streaming, listening, watching)
+`!chameau @user <nombre>` - Expulse un utilisateur d'un canal vocal plusieurs fois
+`!ai [question]` - Génère une réponse IA en utilisant le contexte du salon
+`!save_backup` - Sauvegarde les salons, catégories et rôles du serveur dans un fichier JSON
+`!load_backup [fichier]` - Applique un backup complet (rôles, salons, catégories) sur ce serveur
 
 ## ⚠️ Avertissements légaux
 
@@ -88,4 +93,5 @@ Le bot inclut:
 ## 📄 Licence
 
 MIT
+
 
